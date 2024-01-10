@@ -1,0 +1,12 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		String cliente = "João da Silva";
+		int quantidade = 5;
+		double preco = 3.50;
+		
+		System.out.print("Olá "+cliente+" o total a pagar é R$"+quantidade*preco);
+	}
+
+}

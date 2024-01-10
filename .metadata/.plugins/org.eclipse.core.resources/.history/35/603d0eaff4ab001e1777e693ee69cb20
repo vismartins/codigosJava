@@ -1,0 +1,10 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		String cliente = "João da Silva";
+		
+		System.out.print("Olá, seja bem vindo: "+cliente);
+	}
+
+}

@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		double java = 99.00;
+		double web = 149.90;
+		double python = 109.90;
+		
+		System.out.print("Olá, digite seu nome: ");
+		String nomeAluno = teclado.nextLine();
+		
+		System.out.print("Escolha uma opção de curso: 1-Java 2-Desenvolvimento Web 3-Python");
+		int escolha = teclado.nextInt();
+		
+		switch(escolha) {
+		case 1: System.out.println("Curso para inciantes da linguagem de programação de sistemas Java por R$"+java);break;
+		case 2: System.out.println("Curso para aprendizado em linguagem de programação de sites por R$"+web);break;
+		case 3: System.out.println("Curso para iniciantes em desenvolvimento em Python por R$"+python);break;
+		default: System.out.print("Opção inválida, tente novamente.");break;
+		}
+		teclado.close();
+	
+
+	}
+}

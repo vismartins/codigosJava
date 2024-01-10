@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		String cliente = teclado.next();
+		int quantidade = teclado.nextInt();
+		double preco = teclado.nextDouble();
+		
+		System.out.print("Olá "+cliente+" o total a pagar é R$");
+		System.out.printf("%.2f",quantidade*preco);
+		teclado.close();
+	}
+
+}
